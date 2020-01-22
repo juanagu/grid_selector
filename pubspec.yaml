@@ -2,7 +2,7 @@ name: grid_selector
 description: A new grid selector package.
 version: 1.0.0
 author: juanagu
-homepage: https://github.com/juanagu/grid_selector_flutter
+homepage: https://github.com/juanagu/grid_selector
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
