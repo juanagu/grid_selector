@@ -1,7 +1,8 @@
 name: grid_selector
 description: A new grid selector package.
 version: 1.0.0
-author: juanagu
+publishers:
+  - Juan Ignacio Agú <juan.agu@outlook.com>
 homepage: https://github.com/juanagu/grid_selector
 
 environment:
