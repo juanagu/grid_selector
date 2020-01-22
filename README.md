@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 [![example](https://media.giphy.com/media/Id7LKbxSZFHSueGQzc/giphy.gif)]
 
 ## How is it use?
-See de [example](example/)
+See de [example](example/lib/main.dart)
