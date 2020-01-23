@@ -106,24 +106,24 @@ class _GridSelectorState<TKey> extends State<GridSelector<TKey>> {
     return this.widget.emptyView != null
         ? this.widget.emptyView
         : Container(
-      child: Center(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Icon(
-              Icons.grid_off,
-              size: 40,
-            ),
-            Padding(
-              padding: const EdgeInsets.only(
-                left: 16.0,
+            child: Center(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Icon(
+                    Icons.grid_off,
+                    size: 40,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16.0,
+                    ),
+                    child: Text("Withouts options"),
+                  ),
+                ],
               ),
-              child: Text("Withouts options"),
             ),
-          ],
-        ),
-      ),
-    );
+          );
   }
 
   List<Widget> buildItems(List<GridSelectorItem<TKey>> items) {
@@ -183,8 +183,8 @@ class _GridSelectorState<TKey> extends State<GridSelector<TKey>> {
     return isSelected
         ? widget.backgroundSelectedColor
         : item.isEnabled
-        ? widget.backgroundColor
-        : widget.backgroundDisableColor;
+            ? widget.backgroundColor
+            : widget.backgroundDisableColor;
   }
 
   Color _getLabelColorByItem(GridSelectorItem<TKey> item, bool isSelected) {
