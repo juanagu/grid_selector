@@ -16,5 +16,12 @@ samples, guidance on mobile development, and a full API reference.
 ## Preview
 [![example](https://media.giphy.com/media/Id7LKbxSZFHSueGQzc/giphy.gif)]
 
+## How is it install? 
+
+Follow this [instructions](https://pub.dev/packages/grid_selector#-installing-tab-) 
+
 ## How is it use?
 See de [example](example/lib/main.dart)
+
+## Versions 
+  [Changelog](https://pub.dev/packages/grid_selector#-changelog-tab-) 
