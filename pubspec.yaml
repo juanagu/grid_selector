@@ -1,6 +1,6 @@
 name: grid_selector
-description: A new grid selector package.
-version: 1.0.0
+description: A grid selector widget you can show items and select one of them also some items can be disable.
+version: 1.0.1
 publishers:
   - Juan Ignacio Agú <juan.agu@outlook.com>
 homepage: https://github.com/juanagu/grid_selector
