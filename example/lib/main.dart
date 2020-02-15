@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Container(
-            child: Column(
+            child: ListView(
               children: <Widget>[
                 GridSelector<int>(
                   title: "Tail",

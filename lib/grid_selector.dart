@@ -93,8 +93,10 @@ class _GridSelectorState<TKey> extends State<GridSelector<TKey>> {
     }
 
     return Container(
+      width: double.infinity,
       child: Wrap(
         direction: Axis.horizontal,
+        crossAxisAlignment: WrapCrossAlignment.center,
         spacing: 8.0,
         runSpacing: 4.0,
         children: buildItems(this.widget.items),
